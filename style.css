@@ -1,5 +1,243 @@
-*{
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    margin: 0;
+    outline: none;
+    border: 0;
+    position: relative;
+  
+  }
+  .arima-700 {
+    font-family: "Arima", system-ui, "sans-serif";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+ 
+  a:visited{
+    color: white;
+  }
+  a:hover{
+    color: blue;
+  }
+  a:active{
+    color: red;
+  }
+  
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  /* header section start */
+header {
+    grid-area: nav;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fc590e;
+    padding: 24px;
+    color: rgb(255, 255, 255);
+    
+    z-index: 100;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  }
+  header span {
+    font-weight: 800;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    text-decoration: none;
+  }
+  /* header section end */
+
+  /* main start */
+  .hero-section{
+    height: 100svh;
+    display: flex;
+    background-image: url(./img/two-eng3.jpg);
+    /* background-color: black; */
+    /* text-align: left;
+    justify-content: center;
+    align-items: center; */
+    justify-content: center;
+   
+    
+    font-weight: bold;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-blend-mode: hue ;
+    flex-direction: column;
+    color:whitesmoke ;
+    
+
 }
+.hero-section .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    
+}
+
+.hero-section h1{
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 800;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+}
+.hero-section p {
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+    padding-bottom: 30px;
+
+}
+.hero-section button{
+    padding: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    max-width: 200px;
+    background-color: #fc590e;
+    color:aliceblue;
+    font-size: 15px;
+    
+}
+
+/* team container start */
+.team-container{
+    height: 35svh;
+    align-content: center;
+}
+.team-row{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.team-items{
+    width: 300px;
+    height: 300px;
+    background-color:white;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: #fc590e;
+}
+
+.team-items:hover{
+    width: 300px;
+    height: 300px;
+    background-color:#fc590e;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.team-items i {
+
+    font-size: 90px;
+    padding-bottom: 15px;
+}
+
+
+
+
+/* team container start */
+
+
+/* aboutus start */
+.aboutus{
+    height: 100svh;
+    display: flex;
+    flex-wrap: wrap;
+   
+    background-color: rgb(221, 218, 218);
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  
+   
+    
+    font-weight: bold;
+    
+
+
+}
+
+.aboutus .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 50px;
+    
+}
+.aboutitem{
+    align-content: center;
+    max-width: 700px;
+    padding-bottom: 30px;
+}
+
+.aboutitem img{
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.aboutitem h2{
+    color: #fc590e;
+    font-size:30px;
+    padding-bottom: 30px;
+
+}
+.aboutitem h1{
+    color: #000000;
+    font-size:70px;
+    padding-bottom: 30px;
+
+}
+.aboutitem h1 span{
+    color:#fc590e;
+    font-size:70px;
+}
+
+.aboutitem p{
+    color: #000000;
+    font-size:20px;
+    padding-bottom: 30px;
+
+}
+/* aboutus start */
+
+    /* main end */
+
+    /* footer section start */
+.footer1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  /* footer section end */
