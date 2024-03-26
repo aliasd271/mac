@@ -112,7 +112,8 @@ header {
 
 /* team container start */
 .team-container{
-    height: 35svh;
+    height: auto;
+    min-height: 35svh;
     align-content: center;
 }
 .team-row{
@@ -161,10 +162,11 @@ header {
 
 /* aboutus start */
 .aboutus{
-    height: 100svh;
+    /* height: 100svh; */
     display: flex;
     flex-wrap: wrap;
-   
+    height: auto;
+
     background-color: rgb(221, 218, 218);
     text-align: left;
     justify-content: center;
@@ -183,16 +185,22 @@ header {
     flex-wrap: wrap;
     margin: 50px;
     gap: 50px;
-    
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 .aboutitem{
     align-content: center;
+    width: auto;
     max-width: 700px;
     padding-bottom: 30px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .aboutitem img{
-    max-width: 700px;
+    max-width: 80%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -213,6 +221,8 @@ header {
     color: #000000;
     font-size:70px;
     padding-bottom: 30px;
+
+    text-align: left;
 
 }
 .aboutitem h1 span{
