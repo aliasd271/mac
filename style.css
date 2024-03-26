@@ -113,7 +113,7 @@ header {
 /* team container start */
 .team-container{
     height: auto;
-    min-height: 35svh;
+    /* min-height: 35svh; */
     align-content: center;
 }
 .team-row{
